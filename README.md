@@ -6,7 +6,8 @@ A Django web application that uses a trained machine learning model to predict a
 
 The project demonstrates how a serialized machine learning model can be integrated into a Python web application to accept user inputs and display a prediction.
 
-![Diabetes Prediction System Homepage](..//DiabetesPrediction/static/DiabetesPrediction/images/dashboard.png)
+![Diabetes Prediction System Homepage](./DiabetesPrediction/static/DiabetesPrediction/images/dashboard.png)
+
 
 
 ## Project Overview
@@ -84,12 +85,12 @@ The application uses the following eight input features:
 
 The prediction form lets users enter values for all eight features before submitting a prediction request.
 
-![Diabetes Prediction Form](../DiabetesPrediction/static/DiabetesPrediction/images/Information-form.png)
+![Diabetes Prediction Form](./DiabetesPrediction/static/DiabetesPrediction/images/Information-form.png)
 
 
 ### Prediction Result
 
 After the form is submitted, the application loads the saved model, processes the eight numerical values, and displays the predicted class as **Positif** or **Negatif**.
 
-![Diabetes Prediction Result](../DiabetesPrediction/static/DiabetesPrediction/images/Result.png)
+![Diabetes Prediction Result](./DiabetesPrediction/static/DiabetesPrediction/images/Result.png)
 
